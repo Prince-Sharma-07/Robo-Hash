@@ -53,7 +53,7 @@ export default function Main() {
         <div id="main">
 
             <div id="search-area" >
-                <span>Search Monster</span>
+                <label for="search-box">Search Monster</label>
                 <input value={InputValue} onChange={(e) => setInputValue(e.target.value)} type="text" placeholder="Monster" id="search-box" className='border-none bg-white border-black' />
             </div>
 
